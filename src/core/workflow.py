@@ -3,7 +3,7 @@
 # LOCATION: ciudad juarez/chihuahua/Mexico. 2026-03-07 05:04 a. m.
 
 from src.core.cycle import ValidationCycle
-from src.agents.verifiers import Mathion, Physis, Geometron
+from src.agents.verifiers import Mathematica, Physis, Geometria
 from src.agents.debate import FlawSuccessDebate
 from src.agents.criterion import Criterion
 from src.agents.paper_agents import Structura, Contentor, Figuratus, Latexor, Anglicus, Hispanus, PeerReviewDialogue, PeerReviewSimulation
@@ -23,9 +23,9 @@ class WorkflowEngine:
         
         self.agents = {
             "ALETHEIA": ValidationCycle(config, logger),
-            "MATHION": Mathion(config, logger),
+            "MATHION": Mathematica(config, logger),
             "PHYSIS": Physis(config, logger),
-            "GEOMETRON": Geometron(config, logger),
+            "GEOMETRON": Geometria(config, logger),
             "DEBATE": FlawSuccessDebate(config, logger),
             "CRITERION": Criterion(config, logger),
             "SIMULUS": Simulus(config, logger, self.laws_repo, config.get("sim_output_path")),

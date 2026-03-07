@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2026-03-07T06:49:01.859269",
+    "agent": "ExternalSimValidator",
+    "session_id": "SVS_SESSION_1772891215",
+    "hypothesis_id": "EXT_SIM_1772891341",
+    "action": "INFO",
+    "details": {
+      "message": "[EXT_VALIDATOR] Iniciando validación de simulación externa: ./data/uploads\\r-qnt-simulator-&-theory-platform (2).zip"
+    }
+  }
+]
