@@ -11,42 +11,48 @@ PEEREYE (°∟Æÿ3RE3¶) es una matriz de validación científica multi-agente 
 
 ---
 
-## 🛠️ INSTRUCCIONES DE INSTALACIÓN (QUICK START)
+## 🛠️ INSTRUCCIONES DE DESPLIEGUE (MÚLTIPLES MÉTODOS)
 
-Sigue estos pasos para desplegar el núcleo de PEEREYE en tu entorno local:
+PEEREYE ofrece diferentes métodos de instalación para adaptarse a cualquier usuario. Elige el que te resulte más cómodo:
 
-### 1. Requisitos Previos
-- **Python 3.10+** (Recomendado 3.12)
-- **Git** (Para clonar y gestionar el repositorio)
-- **Navegador Web** (Para la interfaz Matrix)
+### MODO 1: Instalación de 1 Click (Recomendado)
+No necesitas saber usar Git. Solo descarga y ejecuta un archivo script que hará todo por ti.
 
-### 2. Clonar el Repositorio
+1. Descarga el archivo [PEEREYE_INSTALLER.py](https://raw.githubusercontent.com/lopezedward09706-svg/PEEREYE-3RE3-/main/PEEREYE_INSTALLER.py).
+2. Guárdalo en una carpeta vacía.
+3. Abre tu terminal de comandos en esa carpeta y ejecuta:
+```bash
+python PEEREYE_INSTALLER.py
+```
+*El script descargará, extraerá, configurará las dependencias y lanzará el servidor de forma automática.*
+
+### MODO 2: Método Clásico (Git Clone)
+Si eres desarrollador y prefieres tener el repositorio conectado para futuras actualizaciones:
+
+1. Clona el repositorio:
 ```bash
 git clone https://github.com/lopezedward09706-svg/PEEREYE-3RE3-.git
 cd PEEREYE-3RE3-
 ```
-
-### 3. Instalación de Dependencias
-Se recomienda usar un entorno virtual:
+2. (Opcional) Crea un entorno virtual: `python -m venv venv` y actívalo.
+3. Instala los requerimientos:
 ```bash
-# Windows
-python -m venv venv
-venv\Scripts\activate
-
-# Linux/macOS
-python3 -m venv venv
-source venv/bin/activate
-
-# Instalar librerías científicas y web
 pip install -r requirements.txt
 ```
-
-### 4. Ejecución del Sistema
-Inicia el orquestador principal:
+4. Inicia el servidor:
 ```bash
 python main.py
 ```
-El sistema estará disponible en: `http://localhost:5000`
+
+### MODO 3: Descarga Manual (Archivo ZIP)
+Si no quieres usar la terminal para la descarga:
+
+1. Ve a la página del repositorio en GitHub: [Ir al Repositorio](https://github.com/lopezedward09706-svg/PEEREYE-3RE3-).
+2. Haz clic en el botón verde **"Code"** y luego en **"Download ZIP"**.
+3. Extrae el ZIP en tu computadora.
+4. Abre la carpeta extraída en tu terminal, instala las dependencias (`pip install -r requirements.txt`) y ejecuta el archivo principal (`python main.py`).
+
+Una vez iniciado mediante cualquier método, el sistema estará disponible en tu navegador en: `http://localhost:5000`
 
 ---
 
