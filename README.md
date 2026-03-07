@@ -1,4 +1,9 @@
-# ANTIGRAVYTI SVS - Sistema de Validación Científica Multi-Agente
+# PEEREYE-3RE3- (°∟Æÿ3RE3¶)
+**Validación por pares mediante IA - Escrutinio Científico Total**
+
+PEEREYE captura la esencia de "validación por pares mediante IA" en una palabra corta, profesional y con doble significado que refuerza la idea de escrutinio científico. 
+
+**Logo Identitario:** °∟Æÿ3RE3¶ (peereye al revés con simbología de ojos IA y conexiones curvas).
 
 ## Descripción General
 Este es un blueprint técnico diseñado por Antigravyti para la validación teórica de postulados físicos mediante un proceso riguroso multi-agente, implementado 100% en Python determinista.
