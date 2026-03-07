@@ -1,4 +1,5 @@
-# RESONANCE AI - SCIENTIFIC VALIDATION SYSTEM (SVS)
+# PEEREYE-3RE3-
+## °∟Æÿ3RE3¶ (Peer-Eye Scientific AI)
 ## AUTHORITY AND COPYRIGHT NOTICE
 
 **AUTHORITY ID:** 0009-0009-0717-5536
@@ -14,4 +15,4 @@ Redistribution or modification without explicit consent is strictly prohibited.
 The system contains embedded metadata for authenticity verification.
 
 ---
-© 2026 RESONANCE AI PROJECT
+© 2026 PEEREYE PROJECT | °∟Æÿ3RE3¶
