@@ -49,10 +49,36 @@ def init_svs_session():
         session['active_agents'] = ["MATHION", "PHYSIS", "GEOMETRON", "DEBATE", "SIMULUS", "DR_HARDT"]
         session['logs_count'] = 0
 
+@app.route('/login', methods=['POST'])
+def login():
+    data = request.json
+    email = data.get('email')
+    if email:
+        session['user_email'] = email
+        session['drive_sync'] = True
+        return jsonify({"status": "success", "user": email})
+    return jsonify({"status": "error", "message": "Email requerido"}), 400
+
+@app.route('/logout', methods=['POST'])
+def logout():
+    session.pop('user_email', None)
+    session.pop('drive_sync', None)
+    return jsonify({"status": "success"})
+
 @app.route('/')
 def index():
-    init_svs_session()
-    return render_template('index.html', session_data=session)
+    if 'items' not in session:
+        init_svs_session()
+    
+    user = session.get('user_email', None)
+    
+    session_data = {
+        'queue_length': len(session['items']),
+        'iteration': session['iteration_count'],
+        'laws_count': len(session['laws']),
+        'active_agents': session['active_agents']
+    }
+    return render_template('index.html', session_data=session_data, user=user)
 
 @app.route('/toggle_agent', methods=['POST'])
 def toggle_agent():
@@ -139,8 +165,10 @@ def upload_sim():
 
 @app.route('/repository')
 def repository():
-    init_svs_session()
-    return render_template('repository.html', laws=session.get('laws', []))
+    if 'items' not in session:
+        init_svs_session()
+    user = session.get('user_email', None)
+    return render_template('repository.html', laws=session.get('laws', []), user=user)
 
 @app.route('/logs')
 def get_logs():

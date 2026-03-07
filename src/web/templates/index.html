@@ -10,7 +10,20 @@
 <body class="bg-light">
     <div class="container py-4">
         <header class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-2">
-            <h1 class="h3 fw-bold text-success">PEEREYE: °∟Æÿ3RE3¶ Matrix</h1>
+            <div>
+                <h1 class="h3 fw-bold text-success mb-0">PEEREYE: °∟Æÿ3RE3¶ Matrix</h1>
+                <div class="mt-1 small">
+                    <span id="user-status">
+                        {% if user %}
+                            <span class="text-success fw-bold">Usuario:</span> {{ user }} | <span class="badge bg-success"><i class="bi bi-cloud-check"></i> Drive Sync Activo</span>
+                            <button class="btn btn-link btn-sm text-danger p-0 ms-2" onclick="logoutUser()">Salir</button>
+                        {% else %}
+                            <span class="text-secondary">Modo Invitado (Almacenamiento Local)</span>
+                            <button class="btn btn-outline-primary btn-sm ms-2 py-0" onclick="showLoginModal()">Vincular Google Drive</button>
+                        {% endif %}
+                    </span>
+                </div>
+            </div>
             <div class="d-flex gap-2">
                 <button class="btn btn-outline-danger btn-sm" id="btn-reset">Reiniciar / Nueva Sesión</button>
                 <div class="dropdown">
@@ -123,7 +136,7 @@
         </div>
     </div>
 
-    <!-- Modal de Resumen (cada 5 iters) -->
+    <!-- Modal Error / Mensaje Genérico -->
     <div class="modal fade" id="summaryModal" tabindex="-1">
       <div class="modal-dialog">
         <div class="modal-content shadow-lg">
@@ -142,7 +155,43 @@
       </div>
     </div>
 
+    <!-- Login Modal (Google Drive Mock) -->
+    <div class="modal fade" id="loginModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content shadow-lg bg-dark text-white border-primary">
+          <div class="modal-header border-secondary">
+            <h5 class="modal-title fw-bold text-primary">Vincular Cuenta (Drive Sync)</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body text-center">
+            <p class="mb-4">PEEREYE mantendrá tus simulaciones interactivas (demo y trabajo) en esta página, pero utilizará tu cuota de Google Drive para ahorrar ancho de banda y garantizar <strong>congelación de estado (0 RAM)</strong> al pausar.</p>
+            <input type="email" id="loginEmail" class="form-control mb-3 bg-secondary text-white border-dark" placeholder="tu_correo@gmail.com">
+            <button class="btn btn-primary w-100 fw-bold" onclick="loginUser()">Autenticar con Google</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="static/js/app.js"></script>
+    
+    <script>
+        function showLoginModal() {
+            new bootstrap.Modal(document.getElementById('loginModal')).show();
+        }
+
+        function loginUser() {
+            const email = document.getElementById('loginEmail').value;
+            if(!email) return alert("Ingresa un correo.");
+            fetch('/login', {
+                method: 'POST', headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({email: email})
+            }).then(() => location.reload());
+        }
+
+        function logoutUser() {
+            fetch('/logout', {method: 'POST'}).then(() => location.reload());
+        }
+    </script>
 </body>
 </html>

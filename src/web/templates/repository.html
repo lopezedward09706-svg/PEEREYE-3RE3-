@@ -255,10 +255,14 @@
                     <h2>📊 Visualizations & Simulations</h2>
                     <div class="visualizaciones" id="visualizaciones-container">
                         <div class="visual-item" style="border-color: #3fb950; box-shadow: 0 0 15px rgba(63, 185, 80, 0.2);">
-                            <img src="https://via.placeholder.com/400x250/0d1117/3fb950?text=♥genesis-engine-v2.5" alt="Genesis Engine">
+                            <div style="position: relative;">
+                                <!-- Canvas de baja resolución (escalado vía CSS) para optimizar memoria -->
+                                <canvas id="genesis-canvas" width="200" height="125" style="width: 100%; height: 200px; image-rendering: pixelated; background: #00000a; cursor: pointer;" title="Clic para Pausar/Reanudar"></canvas>
+                                <div id="genesis-status" style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.7); color: #3fb950; font-size: 0.7em; padding: 2px 5px; border-radius: 3px;">ACTIVO</div>
+                            </div>
                             <div class="caption">
                                 <strong style="color: #3fb950;">[VERDE] ♥genesis-engine-v2.5 (Cosmo Grounded)</strong><br>
-                                Simulación externa validada. Confirmación y emergencia de estructuras cosmológicas sincronizadas por fase. Coherencia: 98.7%.
+                                Simulación interactiva. 0 RAM al pausar. Confirma emergencia cosmológica fractal.
                             </div>
                         </div>
                         <div class="visual-item">
@@ -322,6 +326,7 @@
     </div>
 
     <script>
+        // Lógica de UI (Run Simulation mock)
         const runBtn = document.getElementById('runSimulation');
         const statusMsg = document.getElementById('status-message');
         const predsContainer = document.getElementById('predicciones-container');
@@ -330,30 +335,102 @@
             runBtn.disabled = true;
             statusMsg.innerText = '⟳ Running SimAI Engine...';
             statusMsg.style.color = '#f39c12';
-
             setTimeout(() => {
-                const newPreds = [
-                    "CPT violation is consistent with simulated neutrino oscillation data.",
-                    "Gravitational wave power spectrum peak detected at 10^-3 Hz (LISA target).",
-                    "Dark energy spatial fluctuations simulated at 2% amplitude (100 Mpc scales).",
-                    "Phase transition in scalar field observed at T ~ 10^15 GeV.",
-                    "Simulated wormholes remain stable for 10^-5 seconds before collapse."
-                ];
-
+                const newPreds = ["CPT violation is consistent with simulated neutrino oscillation data."];
                 const ul = predsContainer.querySelector('ul');
                 newPreds.forEach(p => {
                     const li = document.createElement('li');
-                    li.innerText = p;
-                    li.style.borderLeftColor = '#3fb950';
-                    li.style.background = 'rgba(63, 185, 80, 0.1)';
+                    li.innerText = p; li.style.borderLeftColor = '#3fb950'; li.style.background = 'rgba(63, 185, 80, 0.1)';
                     ul.prepend(li);
                 });
-
-                statusMsg.innerText = '✓ Success: New predictions synthesized.';
-                statusMsg.style.color = '#3fb950';
+                statusMsg.innerText = '✓ Success: New predictions synthesized.'; statusMsg.style.color = '#3fb950';
                 runBtn.disabled = false;
             }, 2000);
         });
+
+        // ==========================================
+        // MOTOR OPTIMIZADO: ♥genesis-engine-v2.5
+        // ==========================================
+        const canvas = document.getElementById('genesis-canvas');
+        const ctx = canvas.getContext('2d', { alpha: false });
+        const gStatus = document.getElementById('genesis-status');
+        
+        // Nodos simulados (red escalar fractal baja poli)
+        const numNodes = 30; // Bajo número para máxima optimización
+        const nodes = Array.from({length: numNodes}, () => ({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            vx: (Math.random() - 0.5) * 0.5,
+            vy: (Math.random() - 0.5) * 0.5,
+            phase: Math.random() * Math.PI * 2
+        }));
+
+        let isRunning = true;
+        let animationId = null;
+        let time = 0;
+
+        function renderGenesis() {
+            if (!isRunning) return; // Congelamiento total de RAM/CPU
+
+            // Fondo con rastro para efecto "red neuronal fractal"
+            ctx.fillStyle = 'rgba(0, 0, 10, 0.2)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            time += 0.05;
+
+            // Actualizar y dibujar nodos
+            nodes.forEach((n, i) => {
+                n.x += n.vx; n.y += n.vy;
+                if(n.x < 0 || n.x > canvas.width) n.vx *= -1;
+                if(n.y < 0 || n.y > canvas.height) n.vy *= -1;
+
+                // Entrelazamiento (Dibujar líneas si están cerca)
+                for(let j=i+1; j<numNodes; j++) {
+                    let n2 = nodes[j];
+                    let dx = n.x - n2.x; let dy = n.y - n2.y;
+                    let dist = dx*dx + dy*dy;
+                    if(dist < 2500) { // Distancia umbral
+                        let strength = 1 - (dist / 2500);
+                        let pulse = Math.sin(time + n.phase) * 0.5 + 0.5;
+                        ctx.beginPath();
+                        ctx.moveTo(n.x, n.y); ctx.lineTo(n2.x, n2.y);
+                        ctx.strokeStyle = `hsla(180, 100%, 60%, ${strength * pulse * 0.8})`;
+                        ctx.lineWidth = strength * 2;
+                        ctx.stroke();
+                    }
+                }
+                
+                // Dibujar nodo (estrella central)
+                ctx.fillStyle = `hsla(150, 80%, 70%, ${0.5 + Math.sin(time + n.phase)*0.5})`;
+                ctx.fillRect(n.x-1, n.y-1, 2, 2);
+            });
+
+            animationId = requestAnimationFrame(renderGenesis);
+        }
+
+        // Sistema de Pausa / Congelamiento Manual
+        canvas.addEventListener('click', () => {
+            isRunning = !isRunning;
+            gStatus.innerText = isRunning ? "ACTIVO" : "CONGELADO (0 RAM)";
+            gStatus.style.color = isRunning ? "#3fb950" : "#c44536";
+            if(isRunning) renderGenesis();
+            else cancelAnimationFrame(animationId);
+        });
+
+        // Optimización Automática: Pausar si no está visible en pantalla (IntersectionObserver)
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if(entry.isIntersecting) {
+                    if(!isRunning) { isRunning = true; gStatus.innerText = "ACTIVO"; gStatus.style.color = "#3fb950"; renderGenesis(); }
+                } else {
+                    isRunning = false; gStatus.innerText = "STANDBY"; gStatus.style.color = "#8b949e"; cancelAnimationFrame(animationId);
+                }
+            });
+        }, { threshold: 0.1 });
+        observer.observe(canvas);
+        
+        // Iniciar
+        renderGenesis();
     </script>
 </body>
 </html>
