@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2026-03-07T06:04:52.839070",
+    "agent": "KB_MANAGER",
+    "session_id": "SVS_SESSION_1772888564",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Importando texto directo asigned ID: text_import_1772888692.txt"
+    }
+  }
+]
