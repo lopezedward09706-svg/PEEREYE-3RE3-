@@ -7,6 +7,8 @@ from flask import Flask, render_template, request, jsonify, session, send_file
 import os
 import time
 import json
+import subprocess
+from logging import Formatter
 import yaml
 import zipfile
 import io
@@ -163,12 +165,30 @@ def upload_sim():
     report = validator.validate_zip(upload_path)
     return jsonify({"status": "success", "report": report})
 
+sim_processes = {}
+
 @app.route('/repository')
 def repository():
     if 'items' not in session:
         init_svs_session()
     user = session.get('user_email', None)
     return render_template('repository.html', laws=session.get('laws', []), user=user)
+
+@app.route('/run_external_sim/<sim_name>')
+def run_external_sim(sim_name):
+    sim_path = os.path.join(config["uploads_path"], sim_name)
+    if not os.path.exists(sim_path):
+        return "Directorio de la simulación no encontrado.", 404
+        
+    global sim_processes
+    if sim_name not in sim_processes:
+        # Lanzar compresión y arranque de la sub-simulación en Vite (React)
+        cmd = 'cmd.exe /c "npm install && npm run dev"'
+        p = subprocess.Popen(cmd, cwd=sim_path, shell=True)
+        sim_processes[sim_name] = p
+        
+    # Asume que un entorno Vite genérico arranca en el 5173 por defecto
+    return render_template('sim_loader.html', sim_url="http://localhost:5173")
 
 @app.route('/logs')
 def get_logs():
