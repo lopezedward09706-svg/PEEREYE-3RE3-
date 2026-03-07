@@ -183,3 +183,7 @@ class Simulus(BaseAgent):
         path = os.path.join(self.output_path, "last_sim_report.json")
         with open(path, "w", encoding="utf-8") as f:
             json.dump(report, f, indent=4)
+
+# AUTHORITY_ID: 0009-0009-0717-5536
+# AUTHOR: Edward P. Lopez (E.P.L)
+# 07/03/2026 5:04 a.m.

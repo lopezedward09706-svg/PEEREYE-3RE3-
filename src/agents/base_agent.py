@@ -12,3 +12,7 @@ class BaseAgent:
 
     def run(self, input_data: dict, context: dict) -> dict:
         raise NotImplementedError("Cada agente debe implementar su método run.")
+
+# AUTHORITY_ID: 0009-0009-0717-5536
+# AUTHOR: Edward P. Lopez (E.P.L)
+# 07/03/2026 5:04 a.m.

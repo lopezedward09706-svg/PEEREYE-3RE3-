@@ -148,3 +148,7 @@ class KBManager:
             processed_items.append(item)
             self.logger.info("KB_MANAGER", f"Item {item['id']} clasificado como: {category}", item['id'])
         return processed_items
+
+# AUTHORITY_ID: 0009-0009-0717-5536
+# AUTHOR: Edward P. Lopez (E.P.L)
+# 07/03/2026 5:04 a.m.
