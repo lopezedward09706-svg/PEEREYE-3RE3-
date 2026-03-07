@@ -1,0 +1,34 @@
+{
+    "id": "LAW_20260307043118_doc_02_refutado",
+    "description": "El tiempo fluye de manera absoluta independientemente del referencial del observador.\n[DEEP_INSIGHT]: Se ha identificado un patrón recurrente de divergencia en los términos de energía.\n[DEEP_INSIGHT]: Se ha identificado un patrón recurrente de divergencia en los términos de energía.",
+    "fecha_validacion": "2026-03-07T04:31:18.556755",
+    "historial": [
+        {
+            "vuelta": 1,
+            "val_res": {
+                "success": true,
+                "conclusion": "Hipótesis validada: Estructura lógica coherente con leyes conocidas.",
+                "valid_content": "El tiempo fluye de manera absoluta independientemente del referencial del observador."
+            },
+            "fal_res": {
+                "falsified": false,
+                "findings": [],
+                "falsified_content": "El tiempo fluye de manera absoluta independientemente del referencial del observador."
+            }
+        },
+        {
+            "vuelta": 2,
+            "val_res": {
+                "success": true,
+                "conclusion": "Hipótesis validada: Estructura lógica coherente con leyes conocidas.",
+                "valid_content": "El tiempo fluye de manera absoluta independientemente del referencial del observador.\n[DEEP_INSIGHT]: Se ha identificado un patrón recurrente de divergencia en los términos de energía."
+            },
+            "fal_res": {
+                "falsified": false,
+                "findings": [],
+                "falsified_content": "El tiempo fluye de manera absoluta independientemente del referencial del observador.\n[DEEP_INSIGHT]: Se ha identificado un patrón recurrente de divergencia en los términos de energía."
+            }
+        }
+    ],
+    "paper_id": "PPR_LAW_20260307043118_doc_02_refutado"
+}

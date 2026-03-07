@@ -1,0 +1,2562 @@
+[
+  {
+    "timestamp": "2026-03-07T04:31:32.960705",
+    "agent": "KB_MANAGER",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Escaneando directorio de entrada: ./data/input"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.961718",
+    "agent": "KB_MANAGER",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Archivo doc_01_valido.txt clasificado como: seccion_3"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.964728",
+    "agent": "KB_MANAGER",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Archivo doc_02_refutado.txt clasificado como: pendiente"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.965737",
+    "agent": "KB_MANAGER",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Archivo doc_03_basura.txt clasificado como: basura"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.967736",
+    "agent": "KB_MANAGER",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Archivo doc_02_tiempo_absoluto.txt clasificado como: pendiente"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.969464",
+    "agent": "KB_MANAGER",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Archivo doc_03_gravedad_lineal.txt clasificado como: seccion_1"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.985674",
+    "agent": "KB_MANAGER",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Archivo doc_04_basura.txt clasificado como: pendiente"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.987934",
+    "agent": "KB_MANAGER",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Archivo doc_05_teorema_energia.txt clasificado como: seccion_1"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.987934",
+    "agent": "KB_MANAGER",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando re-evaluación de archivos en cola 'Pendiente'..."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.988955",
+    "agent": "KB_MANAGER",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Item doc_02_refutado.txt re-clasificado tras auditoría: seccion_1"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.989947",
+    "agent": "KB_MANAGER",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Item doc_02_tiempo_absoluto.txt re-clasificado tras auditoría: seccion_1"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.989947",
+    "agent": "KB_MANAGER",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Item doc_04_basura.txt re-clasificado tras auditoría: seccion_1"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.990946",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "=============================================="
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.992685",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando flujo de validación científico: [doc_03_gravedad_lineal.txt]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.993191",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "ITERACIÓN [1/3]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.994656",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando vuelta 1 de la hipótesis: doc_03_gravedad_lineal.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.994656",
+    "agent": "Validator",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando validación teórica de: doc_03_gravedad_lineal.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.996176",
+    "agent": "Falsifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "START_FALSIFICATION",
+    "details": {
+      "id": "doc_03_gravedad_lineal.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.996285",
+    "agent": "Rework",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Re-trabajando sección A (fallas detectadas) de: doc_03_gravedad_lineal.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:32.999186",
+    "agent": "DeepDive",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Escalando sección B (análisis profundo de fallas) de: doc_03_gravedad_lineal.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.000189",
+    "agent": "Unifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Uniendo conclusiones de secciones A y B."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.001186",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Vuelta 1 completada para: doc_03_gravedad_lineal.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.001963",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando vuelta 2 de la hipótesis: doc_03_gravedad_lineal.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.003430",
+    "agent": "Validator",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando validación teórica de: doc_03_gravedad_lineal.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.004472",
+    "agent": "Falsifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "START_FALSIFICATION",
+    "details": {
+      "id": "doc_03_gravedad_lineal.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.005515",
+    "agent": "Rework",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Re-trabajando sección A (fallas detectadas) de: doc_03_gravedad_lineal.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.006512",
+    "agent": "DeepDive",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Escalando sección B (análisis profundo de fallas) de: doc_03_gravedad_lineal.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.006512",
+    "agent": "Unifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Uniendo conclusiones de secciones A y B."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.007635",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Vuelta 2 completada para: doc_03_gravedad_lineal.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.009140",
+    "agent": "MathVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "START_MATH_VERIFICATION",
+    "details": {
+      "h1": "doc_03_gravedad_lineal.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.010146",
+    "agent": "MathVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "H1 y H2 presentan mutaciones estructurales. Delta de coherencia detectado."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.011653",
+    "agent": "PhilosophyVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Evaluando viabilidad ontológica y causalidad de: doc_03_gravedad_lineal.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.012642",
+    "agent": "VisualVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Verificando integridad de proyecciones geométricas en: doc_03_gravedad_lineal.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.013649",
+    "agent": "DebateManager",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando Debate Observador: Fallos vs Aciertos ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.014263",
+    "agent": "FlawAgent",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "START_DEBATE_FLAWS",
+    "details": {
+      "h_id": "doc_03_gravedad_lineal.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.015273",
+    "agent": "SuccessAgent",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Destacando puntos fuertes y coherencias."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.016270",
+    "agent": "DebateManager",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Conclusión del Debate: Debate concluido: Se detectan fallas menores manejables por el ciclo de retroalimentación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.018126",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Sintetizando telemetría total para decisión del Oráculo (BOOS)."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.018440",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Puntuación media del postulado: 93.33"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.018440",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Veredicto BOOS: Opción 3 - Listo para paper: Hipótesis coherente y robusta tras ciclos de validación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.018440",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "PUNTO DE FUSIÓN ALCANZADO. PAPER ACTIVADO. Listo para paper: Hipótesis coherente y robusta tras ciclos de validación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.022449",
+    "agent": "PaperPlanner",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "START_PLANNING",
+    "details": {
+      "id": "doc_03_gravedad_lineal.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.022449",
+    "agent": "Prepriant",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Expandiendo secciones basadas en la hipótesis: La fuerza de gravedad es propo..."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.022449",
+    "agent": "TranslatorES",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Produciendo versión en Español con sintaxis LaTeX."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.022449",
+    "agent": "TranslatorEN",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Produciendo versión en Inglés con sintaxis LaTeX."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.022449",
+    "agent": "RigorousReviewer",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Revisor Riguroso: Analizando anomalías lógicas en la tesis redactada."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.022449",
+    "agent": "OpponentReviewer",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Revisor Opositor: Defendiendo la robustez del marco teórico."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.032876",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Paper Científico generado en: ./data/papers\\paper_doc_03_gravedad_lineal.json"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.036231",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_gravedad_lineal.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Fin del flujo para: [doc_03_gravedad_lineal.txt]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.036231",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "=============================================="
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.036231",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando flujo de validación científico: [doc_05_teorema_energia.txt]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.036231",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "ITERACIÓN [1/3]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.036231",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando vuelta 1 de la hipótesis: doc_05_teorema_energia.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.043329",
+    "agent": "Validator",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando validación teórica de: doc_05_teorema_energia.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.045366",
+    "agent": "Falsifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "START_FALSIFICATION",
+    "details": {
+      "id": "doc_05_teorema_energia.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.046498",
+    "agent": "Rework",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Re-trabajando sección A (fallas detectadas) de: doc_05_teorema_energia.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.048094",
+    "agent": "DeepDive",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Escalando sección B (análisis profundo de fallas) de: doc_05_teorema_energia.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.050104",
+    "agent": "Unifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Uniendo conclusiones de secciones A y B."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.052102",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Vuelta 1 completada para: doc_05_teorema_energia.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.053103",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando vuelta 2 de la hipótesis: doc_05_teorema_energia.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.054553",
+    "agent": "Validator",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando validación teórica de: doc_05_teorema_energia.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.055561",
+    "agent": "Falsifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "START_FALSIFICATION",
+    "details": {
+      "id": "doc_05_teorema_energia.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.057562",
+    "agent": "Rework",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Re-trabajando sección A (fallas detectadas) de: doc_05_teorema_energia.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.059072",
+    "agent": "DeepDive",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Escalando sección B (análisis profundo de fallas) de: doc_05_teorema_energia.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.061132",
+    "agent": "Unifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Uniendo conclusiones de secciones A y B."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.062340",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Vuelta 2 completada para: doc_05_teorema_energia.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.064376",
+    "agent": "MathVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "START_MATH_VERIFICATION",
+    "details": {
+      "h1": "doc_05_teorema_energia.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.066412",
+    "agent": "MathVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "H1 y H2 presentan mutaciones estructurales. Delta de coherencia detectado."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.069408",
+    "agent": "PhilosophyVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Evaluando viabilidad ontológica y causalidad de: doc_05_teorema_energia.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.071408",
+    "agent": "VisualVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Verificando integridad de proyecciones geométricas en: doc_05_teorema_energia.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.072920",
+    "agent": "DebateManager",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando Debate Observador: Fallos vs Aciertos ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.074923",
+    "agent": "FlawAgent",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "START_DEBATE_FLAWS",
+    "details": {
+      "h_id": "doc_05_teorema_energia.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.077423",
+    "agent": "SuccessAgent",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Destacando puntos fuertes y coherencias."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.078430",
+    "agent": "DebateManager",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Conclusión del Debate: Debate concluido: Se detectan fallas menores manejables por el ciclo de retroalimentación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.080430",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Sintetizando telemetría total para decisión del Oráculo (BOOS)."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.081573",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Puntuación media del postulado: 93.33"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.083420",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Veredicto BOOS: Opción 3 - Listo para paper: Hipótesis coherente y robusta tras ciclos de validación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.083420",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "PUNTO DE FUSIÓN ALCANZADO. PAPER ACTIVADO. Listo para paper: Hipótesis coherente y robusta tras ciclos de validación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.083420",
+    "agent": "PaperPlanner",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "START_PLANNING",
+    "details": {
+      "id": "doc_05_teorema_energia.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.083420",
+    "agent": "Prepriant",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Expandiendo secciones basadas en la hipótesis: Teorema de la conservación asi..."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.083420",
+    "agent": "TranslatorES",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Produciendo versión en Español con sintaxis LaTeX."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.093469",
+    "agent": "TranslatorEN",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Produciendo versión en Inglés con sintaxis LaTeX."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.094093",
+    "agent": "RigorousReviewer",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Revisor Riguroso: Analizando anomalías lógicas en la tesis redactada."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.097162",
+    "agent": "OpponentReviewer",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Revisor Opositor: Defendiendo la robustez del marco teórico."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.097162",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Paper Científico generado en: ./data/papers\\paper_doc_05_teorema_energia.json"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.097162",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_05_teorema_energia.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Fin del flujo para: [doc_05_teorema_energia.txt]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.103690",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "=============================================="
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.104200",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando flujo de validación científico: [doc_02_refutado.txt]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.104200",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "ITERACIÓN [1/3]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.104200",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando vuelta 1 de la hipótesis: doc_02_refutado.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.109253",
+    "agent": "Validator",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando validación teórica de: doc_02_refutado.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.111808",
+    "agent": "Falsifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "START_FALSIFICATION",
+    "details": {
+      "id": "doc_02_refutado.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.142794",
+    "agent": "Rework",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Re-trabajando sección A (fallas detectadas) de: doc_02_refutado.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.145903",
+    "agent": "DeepDive",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Escalando sección B (análisis profundo de fallas) de: doc_02_refutado.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.147426",
+    "agent": "Unifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Uniendo conclusiones de secciones A y B."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.149965",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Vuelta 1 completada para: doc_02_refutado.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.150967",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando vuelta 2 de la hipótesis: doc_02_refutado.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.152966",
+    "agent": "Validator",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando validación teórica de: doc_02_refutado.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.154951",
+    "agent": "Falsifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "START_FALSIFICATION",
+    "details": {
+      "id": "doc_02_refutado.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.156951",
+    "agent": "Rework",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Re-trabajando sección A (fallas detectadas) de: doc_02_refutado.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.159110",
+    "agent": "DeepDive",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Escalando sección B (análisis profundo de fallas) de: doc_02_refutado.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.161620",
+    "agent": "Unifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Uniendo conclusiones de secciones A y B."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.163657",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Vuelta 2 completada para: doc_02_refutado.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.165392",
+    "agent": "MathVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "START_MATH_VERIFICATION",
+    "details": {
+      "h1": "doc_02_refutado.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.168434",
+    "agent": "MathVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "H1 y H2 presentan mutaciones estructurales. Delta de coherencia detectado."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.170431",
+    "agent": "PhilosophyVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Evaluando viabilidad ontológica y causalidad de: doc_02_refutado.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.172487",
+    "agent": "VisualVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Verificando integridad de proyecciones geométricas en: doc_02_refutado.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.174462",
+    "agent": "DebateManager",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando Debate Observador: Fallos vs Aciertos ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.176463",
+    "agent": "FlawAgent",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "START_DEBATE_FLAWS",
+    "details": {
+      "h_id": "doc_02_refutado.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.178487",
+    "agent": "SuccessAgent",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Destacando puntos fuertes y coherencias."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.181555",
+    "agent": "DebateManager",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Conclusión del Debate: Debate concluido: Se detectan fallas menores manejables por el ciclo de retroalimentación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.182082",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Sintetizando telemetría total para decisión del Oráculo (BOOS)."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.182082",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Puntuación media del postulado: 93.33"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.182082",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Veredicto BOOS: Opción 3 - Listo para paper: Hipótesis coherente y robusta tras ciclos de validación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.190128",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "PUNTO DE FUSIÓN ALCANZADO. PAPER ACTIVADO. Listo para paper: Hipótesis coherente y robusta tras ciclos de validación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.192772",
+    "agent": "PaperPlanner",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "START_PLANNING",
+    "details": {
+      "id": "doc_02_refutado.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.194411",
+    "agent": "Prepriant",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Expandiendo secciones basadas en la hipótesis: El tiempo fluye de manera abso..."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.197236",
+    "agent": "TranslatorES",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Produciendo versión en Español con sintaxis LaTeX."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.197236",
+    "agent": "TranslatorEN",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Produciendo versión en Inglés con sintaxis LaTeX."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.197236",
+    "agent": "RigorousReviewer",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Revisor Riguroso: Analizando anomalías lógicas en la tesis redactada."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.204410",
+    "agent": "OpponentReviewer",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Revisor Opositor: Defendiendo la robustez del marco teórico."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.206544",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Paper Científico generado en: ./data/papers\\paper_doc_02_refutado.json"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.209095",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Fin del flujo para: [doc_02_refutado.txt]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.213402",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "=============================================="
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.213909",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando flujo de validación científico: [doc_02_tiempo_absoluto.txt]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.213909",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "ITERACIÓN [1/3]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.213909",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando vuelta 1 de la hipótesis: doc_02_tiempo_absoluto.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.222185",
+    "agent": "Validator",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando validación teórica de: doc_02_tiempo_absoluto.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.222185",
+    "agent": "Falsifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "START_FALSIFICATION",
+    "details": {
+      "id": "doc_02_tiempo_absoluto.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.222185",
+    "agent": "Rework",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Re-trabajando sección A (fallas detectadas) de: doc_02_tiempo_absoluto.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.231422",
+    "agent": "DeepDive",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Escalando sección B (análisis profundo de fallas) de: doc_02_tiempo_absoluto.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.232023",
+    "agent": "Unifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Uniendo conclusiones de secciones A y B."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.232023",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Vuelta 1 completada para: doc_02_tiempo_absoluto.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.232023",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando vuelta 2 de la hipótesis: doc_02_tiempo_absoluto.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.242061",
+    "agent": "Validator",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando validación teórica de: doc_02_tiempo_absoluto.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.244268",
+    "agent": "Falsifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "START_FALSIFICATION",
+    "details": {
+      "id": "doc_02_tiempo_absoluto.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.246523",
+    "agent": "Rework",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Re-trabajando sección A (fallas detectadas) de: doc_02_tiempo_absoluto.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.248062",
+    "agent": "DeepDive",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Escalando sección B (análisis profundo de fallas) de: doc_02_tiempo_absoluto.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.253116",
+    "agent": "Unifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Uniendo conclusiones de secciones A y B."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.254243",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Vuelta 2 completada para: doc_02_tiempo_absoluto.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.254243",
+    "agent": "MathVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "START_MATH_VERIFICATION",
+    "details": {
+      "h1": "doc_02_tiempo_absoluto.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.259345",
+    "agent": "MathVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "H1 y H2 presentan mutaciones estructurales. Delta de coherencia detectado."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.262791",
+    "agent": "PhilosophyVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Evaluando viabilidad ontológica y causalidad de: doc_02_tiempo_absoluto.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.267024",
+    "agent": "VisualVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Verificando integridad de proyecciones geométricas en: doc_02_tiempo_absoluto.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.270019",
+    "agent": "DebateManager",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando Debate Observador: Fallos vs Aciertos ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.272563",
+    "agent": "FlawAgent",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "START_DEBATE_FLAWS",
+    "details": {
+      "h_id": "doc_02_tiempo_absoluto.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.274563",
+    "agent": "SuccessAgent",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Destacando puntos fuertes y coherencias."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.278569",
+    "agent": "DebateManager",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Conclusión del Debate: Debate concluido: Se detectan fallas menores manejables por el ciclo de retroalimentación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.282044",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Sintetizando telemetría total para decisión del Oráculo (BOOS)."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.284590",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Puntuación media del postulado: 93.33"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.287130",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Veredicto BOOS: Opción 3 - Listo para paper: Hipótesis coherente y robusta tras ciclos de validación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.290486",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "PUNTO DE FUSIÓN ALCANZADO. PAPER ACTIVADO. Listo para paper: Hipótesis coherente y robusta tras ciclos de validación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.292499",
+    "agent": "PaperPlanner",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "START_PLANNING",
+    "details": {
+      "id": "doc_02_tiempo_absoluto.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.298442",
+    "agent": "Prepriant",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Expandiendo secciones basadas en la hipótesis: El tiempo fluye de manera unif..."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.301442",
+    "agent": "TranslatorES",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Produciendo versión en Español con sintaxis LaTeX."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.304460",
+    "agent": "TranslatorEN",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Produciendo versión en Inglés con sintaxis LaTeX."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.307465",
+    "agent": "RigorousReviewer",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Revisor Riguroso: Analizando anomalías lógicas en la tesis redactada."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.310981",
+    "agent": "OpponentReviewer",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Revisor Opositor: Defendiendo la robustez del marco teórico."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.315248",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Paper Científico generado en: ./data/papers\\paper_doc_02_tiempo_absoluto.json"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.319661",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_tiempo_absoluto.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Fin del flujo para: [doc_02_tiempo_absoluto.txt]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.328570",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "=============================================="
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.332385",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando flujo de validación científico: [doc_04_basura.txt]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.336603",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "ITERACIÓN [1/3]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.336603",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando vuelta 1 de la hipótesis: doc_04_basura.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.342774",
+    "agent": "Validator",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando validación teórica de: doc_04_basura.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.345958",
+    "agent": "Falsifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "START_FALSIFICATION",
+    "details": {
+      "id": "doc_04_basura.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.349382",
+    "agent": "Rework",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Re-trabajando sección A (fallas detectadas) de: doc_04_basura.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.354902",
+    "agent": "DeepDive",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Escalando sección B (análisis profundo de fallas) de: doc_04_basura.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.358503",
+    "agent": "Unifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Uniendo conclusiones de secciones A y B."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.362562",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Vuelta 1 completada para: doc_04_basura.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.365079",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando vuelta 2 de la hipótesis: doc_04_basura.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.368077",
+    "agent": "Validator",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando validación teórica de: doc_04_basura.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.371076",
+    "agent": "Falsifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "START_FALSIFICATION",
+    "details": {
+      "id": "doc_04_basura.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.374305",
+    "agent": "Rework",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Re-trabajando sección A (fallas detectadas) de: doc_04_basura.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.377305",
+    "agent": "DeepDive",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Escalando sección B (análisis profundo de fallas) de: doc_04_basura.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.381929",
+    "agent": "Unifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Uniendo conclusiones de secciones A y B."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.384934",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Vuelta 2 completada para: doc_04_basura.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.388936",
+    "agent": "MathVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "START_MATH_VERIFICATION",
+    "details": {
+      "h1": "doc_04_basura.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.390935",
+    "agent": "MathVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "H1 y H2 presentan mutaciones estructurales. Delta de coherencia detectado."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.395028",
+    "agent": "PhilosophyVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Evaluando viabilidad ontológica y causalidad de: doc_04_basura.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.397372",
+    "agent": "VisualVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Verificando integridad de proyecciones geométricas en: doc_04_basura.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.397372",
+    "agent": "DebateManager",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando Debate Observador: Fallos vs Aciertos ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.404007",
+    "agent": "FlawAgent",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "START_DEBATE_FLAWS",
+    "details": {
+      "h_id": "doc_04_basura.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.409134",
+    "agent": "SuccessAgent",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Destacando puntos fuertes y coherencias."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.412422",
+    "agent": "DebateManager",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Conclusión del Debate: Debate concluido: Se detectan fallas menores manejables por el ciclo de retroalimentación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.412422",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Sintetizando telemetría total para decisión del Oráculo (BOOS)."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.412422",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Puntuación media del postulado: 93.33"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.421493",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Veredicto BOOS: Opción 3 - Listo para paper: Hipótesis coherente y robusta tras ciclos de validación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.421493",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "PUNTO DE FUSIÓN ALCANZADO. PAPER ACTIVADO. Listo para paper: Hipótesis coherente y robusta tras ciclos de validación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.429139",
+    "agent": "PaperPlanner",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "START_PLANNING",
+    "details": {
+      "id": "doc_04_basura.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.431706",
+    "agent": "Prepriant",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Expandiendo secciones basadas en la hipótesis: hola esto no tiene sentido alg..."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.431706",
+    "agent": "TranslatorES",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Produciendo versión en Español con sintaxis LaTeX."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.431706",
+    "agent": "TranslatorEN",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Produciendo versión en Inglés con sintaxis LaTeX."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.444349",
+    "agent": "RigorousReviewer",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Revisor Riguroso: Analizando anomalías lógicas en la tesis redactada."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.449168",
+    "agent": "OpponentReviewer",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Revisor Opositor: Defendiendo la robustez del marco teórico."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.453173",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Paper Científico generado en: ./data/papers\\paper_doc_04_basura.json"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.457012",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_04_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Fin del flujo para: [doc_04_basura.txt]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.460522",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "=============================================="
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.464738",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando flujo de validación científico: [doc_01_valido.txt]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.464738",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "ITERACIÓN [1/3]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.471310",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando vuelta 1 de la hipótesis: doc_01_valido.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.471310",
+    "agent": "Validator",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando validación teórica de: doc_01_valido.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.479084",
+    "agent": "Falsifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "START_FALSIFICATION",
+    "details": {
+      "id": "doc_01_valido.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.483386",
+    "agent": "Rework",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Re-trabajando sección A (fallas detectadas) de: doc_01_valido.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.486391",
+    "agent": "DeepDive",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Escalando sección B (análisis profundo de fallas) de: doc_01_valido.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.490393",
+    "agent": "Unifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Uniendo conclusiones de secciones A y B."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.494630",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Vuelta 1 completada para: doc_01_valido.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.500950",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando vuelta 2 de la hipótesis: doc_01_valido.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.504006",
+    "agent": "Validator",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando validación teórica de: doc_01_valido.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.508009",
+    "agent": "Falsifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "START_FALSIFICATION",
+    "details": {
+      "id": "doc_01_valido.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.510042",
+    "agent": "Rework",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Re-trabajando sección A (fallas detectadas) de: doc_01_valido.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.514007",
+    "agent": "DeepDive",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Escalando sección B (análisis profundo de fallas) de: doc_01_valido.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.514007",
+    "agent": "Unifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Uniendo conclusiones de secciones A y B."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.521514",
+    "agent": "CYCLE",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Vuelta 2 completada para: doc_01_valido.txt ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.521514",
+    "agent": "MathVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "START_MATH_VERIFICATION",
+    "details": {
+      "h1": "doc_01_valido.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.529248",
+    "agent": "MathVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "H1 y H2 presentan mutaciones estructurales. Delta de coherencia detectado."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.531833",
+    "agent": "PhilosophyVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Evaluando viabilidad ontológica y causalidad de: doc_01_valido.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.531833",
+    "agent": "VisualVerifier",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Verificando integridad de proyecciones geométricas en: doc_01_valido.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.531833",
+    "agent": "DebateManager",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "--- Iniciando Debate Observador: Fallos vs Aciertos ---"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.542932",
+    "agent": "FlawAgent",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "START_DEBATE_FLAWS",
+    "details": {
+      "h_id": "doc_01_valido.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.546308",
+    "agent": "SuccessAgent",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Destacando puntos fuertes y coherencias."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.546308",
+    "agent": "DebateManager",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Conclusión del Debate: Debate concluido: Se detectan fallas menores manejables por el ciclo de retroalimentación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.553935",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Sintetizando telemetría total para decisión del Oráculo (BOOS)."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.553935",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Puntuación media del postulado: 93.33"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.562926",
+    "agent": "BOOS",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Veredicto BOOS: Opción 3 - Listo para paper: Hipótesis coherente y robusta tras ciclos de validación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.567241",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "PUNTO DE FUSIÓN ALCANZADO. PAPER ACTIVADO. Listo para paper: Hipótesis coherente y robusta tras ciclos de validación."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.572312",
+    "agent": "PaperPlanner",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "START_PLANNING",
+    "details": {
+      "id": "doc_01_valido.txt"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.577311",
+    "agent": "Prepriant",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Expandiendo secciones basadas en la hipótesis: La energía total de un sistema..."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.581848",
+    "agent": "TranslatorES",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Produciendo versión en Español con sintaxis LaTeX."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.584853",
+    "agent": "TranslatorEN",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Produciendo versión en Inglés con sintaxis LaTeX."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.588853",
+    "agent": "RigorousReviewer",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Revisor Riguroso: Analizando anomalías lógicas en la tesis redactada."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.592853",
+    "agent": "OpponentReviewer",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Revisor Opositor: Defendiendo la robustez del marco teórico."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.598405",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Paper Científico generado en: ./data/papers\\paper_doc_01_valido.json"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.603982",
+    "agent": "WORKFLOW",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Fin del flujo para: [doc_01_valido.txt]"
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.607989",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": null,
+    "action": "INFO",
+    "details": {
+      "message": "Iniciando Motor de Simulación sobre Leyes Validadas."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.746257",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_01_valido.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Simulación de ley doc_01_valido.txt: Ecuaciones convergen pero sin eventos excepcionales."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.754625",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_02_refutado.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Simulación de ley doc_02_refutado.txt: Ecuaciones convergen pero sin eventos excepcionales."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.759566",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "doc_03_basura.txt",
+    "action": "INFO",
+    "details": {
+      "message": "Simulación de ley doc_03_basura.txt: Ecuaciones convergen pero sin eventos excepcionales."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.764091",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307042926_doc_01_valido",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307042926_doc_01_valido verificada en SIM dinámica."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.768506",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307042926_doc_02_refutado",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307042926_doc_02_refutado verificada en SIM dinámica."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.772597",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307042926_doc_02_tiempo_absoluto",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307042926_doc_02_tiempo_absoluto verificada en SIM dinámica."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.776363",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307042926_doc_03_gravedad_lineal",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307042926_doc_03_gravedad_lineal verificada en SIM dinámica."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.781443",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307042926_doc_04_basura",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307042926_doc_04_basura verificada en SIM dinámica."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.784989",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307042926_doc_05_teorema_energia",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307042926_doc_05_teorema_energia verificada en SIM dinámica."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.789956",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307043118_doc_01_valido",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307043118_doc_01_valido verificada en SIM dinámica."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.794707",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307043118_doc_02_refutado",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307043118_doc_02_refutado verificada en SIM dinámica."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.799373",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307043118_doc_02_tiempo_absoluto",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307043118_doc_02_tiempo_absoluto verificada en SIM dinámica."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.804040",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307043118_doc_03_gravedad_lineal",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307043118_doc_03_gravedad_lineal verificada en SIM dinámica."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.807952",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307043118_doc_04_basura",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307043118_doc_04_basura verificada en SIM dinámica."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.812416",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307043118_doc_05_teorema_energia",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307043118_doc_05_teorema_energia verificada en SIM dinámica."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.816764",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307043133_doc_01_valido",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307043133_doc_01_valido verificada en SIM dinámica."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.821342",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307043133_doc_02_refutado",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307043133_doc_02_refutado verificada en SIM dinámica."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.825273",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307043133_doc_02_tiempo_absoluto",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307043133_doc_02_tiempo_absoluto verificada en SIM dinámica."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.830570",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307043133_doc_03_gravedad_lineal",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307043133_doc_03_gravedad_lineal verificada en SIM dinámica."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.832849",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307043133_doc_04_basura",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307043133_doc_04_basura verificada en SIM dinámica."
+    }
+  },
+  {
+    "timestamp": "2026-03-07T04:31:33.977875",
+    "agent": "SIM_AI",
+    "session_id": "SVS_SESSION_1772883092",
+    "hypothesis_id": "LAW_20260307043133_doc_05_teorema_energia",
+    "action": "INFO",
+    "details": {
+      "message": "[EUREKA] Ley LAW_20260307043133_doc_05_teorema_energia verificada en SIM dinámica."
+    }
+  }
+]

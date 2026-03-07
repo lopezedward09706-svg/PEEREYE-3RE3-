@@ -1,0 +1,1 @@
+La energía total de un sistema cerrado es equivalente a su masa inercial multiplicada por el cuadrado de la velocidad de la luz (E=mc^2). Esto es una demostración de la simetría métrica del espacio-tiempo cuántico.

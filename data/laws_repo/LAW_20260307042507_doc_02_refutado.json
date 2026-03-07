@@ -1,0 +1,30 @@
+{
+    "id": "doc_02_refutado.txt",
+    "content": "El tiempo fluye de manera absoluta independientemente del referencial del observador.",
+    "history": [
+        {
+            "cycle": "Primera Vuelta",
+            "val": {
+                "success": false,
+                "conclusion": "Validación: No se encontró formulación deducible."
+            },
+            "fal": {
+                "falsified": false,
+                "conclusion": "Refutación: Resistió la falsación inicial (No se encontraron contraejemplos triviales)."
+            },
+            "insight": "El análisis espectral del enunciado sugiere asimetrías subyacentes críticas."
+        },
+        {
+            "cycle": "Segunda Vuelta",
+            "val": {
+                "success": false,
+                "conclusion": "Validación: No se encontró formulación deducible."
+            },
+            "fal": {
+                "falsified": false,
+                "conclusion": "Refutación: Resistió la falsación inicial (No se encontraron contraejemplos triviales)."
+            },
+            "insight": "El análisis espectral del enunciado sugiere asimetrías subyacentes críticas."
+        }
+    ]
+}

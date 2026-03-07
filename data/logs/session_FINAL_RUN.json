@@ -1,0 +1,709 @@
+[
+    {
+        "timestamp": "2026-03-07T04:25:07.864199",
+        "component": "KB_MANAGER",
+        "level": "INFO",
+        "message": "Iniciando ingesta secuencial desde data/input",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.878316",
+        "component": "KB_MANAGER",
+        "level": "INFO",
+        "message": "Archivo doc_01_valido.txt clasificado en: seccion_3",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.887444",
+        "component": "KB_MANAGER",
+        "level": "INFO",
+        "message": "Archivo doc_02_refutado.txt clasificado en: seccion_1",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.897586",
+        "component": "KB_MANAGER",
+        "level": "INFO",
+        "message": "Archivo doc_03_basura.txt clasificado en: seccion_1",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898093",
+        "component": "WORKFLOW",
+        "level": "INFO",
+        "message": "==============================================",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898093",
+        "component": "WORKFLOW",
+        "level": "INFO",
+        "message": "Iniciando procesamiento de flujo libre (Hipótesis ID: [doc_02_refutado.txt])",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898315",
+        "component": "WORKFLOW",
+        "level": "INFO",
+        "message": "ITERACIÓN [1/3]",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898315",
+        "component": "CYCLE",
+        "level": "INFO",
+        "message": "--- Iniciando Primera Vuelta ---",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898315",
+        "component": "VALIDATOR",
+        "level": "INFO",
+        "message": "Iniciando validación teórica para: [doc_02_refutado.txt]",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898315",
+        "component": "FALSIFIER",
+        "level": "INFO",
+        "message": "Intentando falsar hipótesis empíricamente: [doc_02_refutado.txt]",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898315",
+        "component": "REWORK_AGENT",
+        "level": "INFO",
+        "message": "Análisis de fallas para refactorización de hipótesis.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898315",
+        "component": "DEEP_DIVE_AGENT",
+        "level": "INFO",
+        "message": "Profundizando en el origen de las inconsistencias (Sección B).",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898315",
+        "component": "CYCLE",
+        "level": "INFO",
+        "message": "--- Fin de Primera Vuelta ---",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898315",
+        "component": "CYCLE",
+        "level": "INFO",
+        "message": "--- Iniciando Segunda Vuelta ---",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898315",
+        "component": "VALIDATOR",
+        "level": "INFO",
+        "message": "Iniciando validación teórica para: [doc_02_refutado.txt]",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898315",
+        "component": "FALSIFIER",
+        "level": "INFO",
+        "message": "Intentando falsar hipótesis empíricamente: [doc_02_refutado.txt]",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898315",
+        "component": "REWORK_AGENT",
+        "level": "INFO",
+        "message": "Análisis de fallas para refactorización de hipótesis.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898820",
+        "component": "DEEP_DIVE_AGENT",
+        "level": "INFO",
+        "message": "Profundizando en el origen de las inconsistencias (Sección B).",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898820",
+        "component": "CYCLE",
+        "level": "INFO",
+        "message": "--- Fin de Segunda Vuelta ---",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898820",
+        "component": "MATH_VERIFIER",
+        "level": "INFO",
+        "message": "Verificando consistencia topológica y algebraica entre ciclos.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898820",
+        "component": "PHIL_VERIFIER",
+        "level": "INFO",
+        "message": "Evaluando viabilidad ontológica inter-ciclo.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898820",
+        "component": "VISUAL_VERIFIER",
+        "level": "INFO",
+        "message": "Analizando coherencia de representaciones geométricas/código.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898820",
+        "component": "FLAW_AGENT",
+        "level": "INFO",
+        "message": "Inspeccionando fallas microscópicas en las matrices de verificación.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898820",
+        "component": "SUCCESS_AGENT",
+        "level": "INFO",
+        "message": "Resaltando robustez macroscópica de la propuesta.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898820",
+        "component": "BOOS",
+        "level": "INFO",
+        "message": "Sintetizando telemetría total para Decisión Suprema (BOOS).",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898820",
+        "component": "BOOS",
+        "level": "INFO",
+        "message": "Veredicto BOOS: Opción 3: Estado de convergencia. Listo para Tesis Paper.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898820",
+        "component": "WORKFLOW",
+        "level": "INFO",
+        "message": "Punto de Fusión Alcanzado. Iniciando Pipeline de Paper Académico.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898820",
+        "component": "PAPER_PLANNER",
+        "level": "INFO",
+        "message": "Estructurando esqueleto cuántico/lógico del Paper Científico.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898820",
+        "component": "PREPRIANT",
+        "level": "INFO",
+        "message": "Expandiendo esqueleto en un Preprint analítico para diseminación.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898820",
+        "component": "TRANSLATOR_ES",
+        "level": "INFO",
+        "message": "Transmutando vector de texto a Español Técnico (LaTeX Compliant).",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898820",
+        "component": "TRANSLATOR_EN",
+        "level": "INFO",
+        "message": "Transmuting to Technical English Quantum Terminology (LaTeX).",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898820",
+        "component": "RIGOROUS_REV",
+        "level": "INFO",
+        "message": "Revisión Inquisitiva: Buscando anomalías lógicas en la tesis redactada.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.898820",
+        "component": "OPPONENT_REV",
+        "level": "INFO",
+        "message": "Revisión Defensora: Optimizando los escudos estructurales de la formulación teórica.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.900519",
+        "component": "WORKFLOW",
+        "level": "INFO",
+        "message": "Blueprint LaTeX completado y ofuscado en data/papers\\paper_doc_02_refutado.json.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901194",
+        "component": "SIM_AI",
+        "level": "INFO",
+        "message": "Ley Fundamental Guardada en Repositorio Estelar: LAW_20260307042507_doc_02_refutado",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901194",
+        "component": "WORKFLOW",
+        "level": "INFO",
+        "message": "==============================================",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901194",
+        "component": "WORKFLOW",
+        "level": "INFO",
+        "message": "Iniciando procesamiento de flujo libre (Hipótesis ID: [doc_03_basura.txt])",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901194",
+        "component": "WORKFLOW",
+        "level": "INFO",
+        "message": "ITERACIÓN [1/3]",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901194",
+        "component": "CYCLE",
+        "level": "INFO",
+        "message": "--- Iniciando Primera Vuelta ---",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901194",
+        "component": "VALIDATOR",
+        "level": "INFO",
+        "message": "Iniciando validación teórica para: [doc_03_basura.txt]",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "FALSIFIER",
+        "level": "INFO",
+        "message": "Intentando falsar hipótesis empíricamente: [doc_03_basura.txt]",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "REWORK_AGENT",
+        "level": "INFO",
+        "message": "Análisis de fallas para refactorización de hipótesis.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "DEEP_DIVE_AGENT",
+        "level": "INFO",
+        "message": "Profundizando en el origen de las inconsistencias (Sección B).",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "CYCLE",
+        "level": "INFO",
+        "message": "--- Fin de Primera Vuelta ---",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "CYCLE",
+        "level": "INFO",
+        "message": "--- Iniciando Segunda Vuelta ---",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "VALIDATOR",
+        "level": "INFO",
+        "message": "Iniciando validación teórica para: [doc_03_basura.txt]",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "FALSIFIER",
+        "level": "INFO",
+        "message": "Intentando falsar hipótesis empíricamente: [doc_03_basura.txt]",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "REWORK_AGENT",
+        "level": "INFO",
+        "message": "Análisis de fallas para refactorización de hipótesis.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "DEEP_DIVE_AGENT",
+        "level": "INFO",
+        "message": "Profundizando en el origen de las inconsistencias (Sección B).",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "CYCLE",
+        "level": "INFO",
+        "message": "--- Fin de Segunda Vuelta ---",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "MATH_VERIFIER",
+        "level": "INFO",
+        "message": "Verificando consistencia topológica y algebraica entre ciclos.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "PHIL_VERIFIER",
+        "level": "INFO",
+        "message": "Evaluando viabilidad ontológica inter-ciclo.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "VISUAL_VERIFIER",
+        "level": "INFO",
+        "message": "Analizando coherencia de representaciones geométricas/código.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "FLAW_AGENT",
+        "level": "INFO",
+        "message": "Inspeccionando fallas microscópicas en las matrices de verificación.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "SUCCESS_AGENT",
+        "level": "INFO",
+        "message": "Resaltando robustez macroscópica de la propuesta.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "BOOS",
+        "level": "INFO",
+        "message": "Sintetizando telemetría total para Decisión Suprema (BOOS).",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "BOOS",
+        "level": "INFO",
+        "message": "Veredicto BOOS: Opción 3: Estado de convergencia. Listo para Tesis Paper.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "WORKFLOW",
+        "level": "INFO",
+        "message": "Punto de Fusión Alcanzado. Iniciando Pipeline de Paper Académico.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "PAPER_PLANNER",
+        "level": "INFO",
+        "message": "Estructurando esqueleto cuántico/lógico del Paper Científico.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "PREPRIANT",
+        "level": "INFO",
+        "message": "Expandiendo esqueleto en un Preprint analítico para diseminación.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.901701",
+        "component": "TRANSLATOR_ES",
+        "level": "INFO",
+        "message": "Transmutando vector de texto a Español Técnico (LaTeX Compliant).",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.902709",
+        "component": "TRANSLATOR_EN",
+        "level": "INFO",
+        "message": "Transmuting to Technical English Quantum Terminology (LaTeX).",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.902709",
+        "component": "RIGOROUS_REV",
+        "level": "INFO",
+        "message": "Revisión Inquisitiva: Buscando anomalías lógicas en la tesis redactada.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.902709",
+        "component": "OPPONENT_REV",
+        "level": "INFO",
+        "message": "Revisión Defensora: Optimizando los escudos estructurales de la formulación teórica.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.903379",
+        "component": "WORKFLOW",
+        "level": "INFO",
+        "message": "Blueprint LaTeX completado y ofuscado en data/papers\\paper_doc_03_basura.json.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.904361",
+        "component": "SIM_AI",
+        "level": "INFO",
+        "message": "Ley Fundamental Guardada en Repositorio Estelar: LAW_20260307042507_doc_03_basura",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.904361",
+        "component": "WORKFLOW",
+        "level": "INFO",
+        "message": "==============================================",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.904361",
+        "component": "WORKFLOW",
+        "level": "INFO",
+        "message": "Iniciando procesamiento de flujo libre (Hipótesis ID: [doc_01_valido.txt])",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.904361",
+        "component": "WORKFLOW",
+        "level": "INFO",
+        "message": "ITERACIÓN [1/3]",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.904361",
+        "component": "CYCLE",
+        "level": "INFO",
+        "message": "--- Iniciando Primera Vuelta ---",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.904361",
+        "component": "VALIDATOR",
+        "level": "INFO",
+        "message": "Iniciando validación teórica para: [doc_01_valido.txt]",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.904361",
+        "component": "FALSIFIER",
+        "level": "INFO",
+        "message": "Intentando falsar hipótesis empíricamente: [doc_01_valido.txt]",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.904361",
+        "component": "REWORK_AGENT",
+        "level": "INFO",
+        "message": "Análisis de fallas para refactorización de hipótesis.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.904361",
+        "component": "DEEP_DIVE_AGENT",
+        "level": "INFO",
+        "message": "Profundizando en el origen de las inconsistencias (Sección B).",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.904361",
+        "component": "CYCLE",
+        "level": "INFO",
+        "message": "--- Fin de Primera Vuelta ---",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.904361",
+        "component": "CYCLE",
+        "level": "INFO",
+        "message": "--- Iniciando Segunda Vuelta ---",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.904361",
+        "component": "VALIDATOR",
+        "level": "INFO",
+        "message": "Iniciando validación teórica para: [doc_01_valido.txt]",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.904361",
+        "component": "FALSIFIER",
+        "level": "INFO",
+        "message": "Intentando falsar hipótesis empíricamente: [doc_01_valido.txt]",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.904361",
+        "component": "REWORK_AGENT",
+        "level": "INFO",
+        "message": "Análisis de fallas para refactorización de hipótesis.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.905073",
+        "component": "DEEP_DIVE_AGENT",
+        "level": "INFO",
+        "message": "Profundizando en el origen de las inconsistencias (Sección B).",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.905073",
+        "component": "CYCLE",
+        "level": "INFO",
+        "message": "--- Fin de Segunda Vuelta ---",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.905073",
+        "component": "MATH_VERIFIER",
+        "level": "INFO",
+        "message": "Verificando consistencia topológica y algebraica entre ciclos.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.905073",
+        "component": "PHIL_VERIFIER",
+        "level": "INFO",
+        "message": "Evaluando viabilidad ontológica inter-ciclo.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.905073",
+        "component": "VISUAL_VERIFIER",
+        "level": "INFO",
+        "message": "Analizando coherencia de representaciones geométricas/código.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.905073",
+        "component": "FLAW_AGENT",
+        "level": "INFO",
+        "message": "Inspeccionando fallas microscópicas en las matrices de verificación.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.905073",
+        "component": "SUCCESS_AGENT",
+        "level": "INFO",
+        "message": "Resaltando robustez macroscópica de la propuesta.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.905073",
+        "component": "BOOS",
+        "level": "INFO",
+        "message": "Sintetizando telemetría total para Decisión Suprema (BOOS).",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.905073",
+        "component": "BOOS",
+        "level": "INFO",
+        "message": "Veredicto BOOS: Opción 3: Estado de convergencia. Listo para Tesis Paper.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.905073",
+        "component": "WORKFLOW",
+        "level": "INFO",
+        "message": "Punto de Fusión Alcanzado. Iniciando Pipeline de Paper Académico.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.905073",
+        "component": "PAPER_PLANNER",
+        "level": "INFO",
+        "message": "Estructurando esqueleto cuántico/lógico del Paper Científico.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.905073",
+        "component": "PREPRIANT",
+        "level": "INFO",
+        "message": "Expandiendo esqueleto en un Preprint analítico para diseminación.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.905073",
+        "component": "TRANSLATOR_ES",
+        "level": "INFO",
+        "message": "Transmutando vector de texto a Español Técnico (LaTeX Compliant).",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.905073",
+        "component": "TRANSLATOR_EN",
+        "level": "INFO",
+        "message": "Transmuting to Technical English Quantum Terminology (LaTeX).",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.905073",
+        "component": "RIGOROUS_REV",
+        "level": "INFO",
+        "message": "Revisión Inquisitiva: Buscando anomalías lógicas en la tesis redactada.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.905073",
+        "component": "OPPONENT_REV",
+        "level": "INFO",
+        "message": "Revisión Defensora: Optimizando los escudos estructurales de la formulación teórica.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.907163",
+        "component": "WORKFLOW",
+        "level": "INFO",
+        "message": "Blueprint LaTeX completado y ofuscado en data/papers\\paper_doc_01_valido.json.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.908283",
+        "component": "SIM_AI",
+        "level": "INFO",
+        "message": "Ley Fundamental Guardada en Repositorio Estelar: LAW_20260307042507_doc_01_valido",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.908283",
+        "component": "SIM_AI",
+        "level": "INFO",
+        "message": "Iniciando Motor de Simulación Cuántica Computacional sobre Leyes Validadas.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.918679",
+        "component": "SIM_AI",
+        "level": "INFO",
+        "message": "\u001b[92m[EUREKA] - Simulación Estable. Conservación de Energía Comprobada Vectorialmente.\u001b[0m",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.933988",
+        "component": "SIM_AI",
+        "level": "INFO",
+        "message": "Simulación neutral. Ecuaciones convergen pero sin eventos excepcionales en la retícula.",
+        "data": null
+    },
+    {
+        "timestamp": "2026-03-07T04:25:07.947416",
+        "component": "SIM_AI",
+        "level": "INFO",
+        "message": "Simulación neutral. Ecuaciones convergen pero sin eventos excepcionales en la retícula.",
+        "data": null
+    }
+]

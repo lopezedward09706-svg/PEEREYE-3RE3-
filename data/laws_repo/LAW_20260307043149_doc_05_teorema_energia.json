@@ -1,0 +1,34 @@
+{
+    "id": "LAW_20260307043149_doc_05_teorema_energia",
+    "description": "Teorema de la conservación asintótica: La energía de vacío no puede crearse ni destruirse, solo transformarse en partículas bosónicas de espín par mediante la ecuación de Schwinger.\n[DEEP_INSIGHT]: Se ha identificado un patrón recurrente de divergencia en los términos de energía.\n[DEEP_INSIGHT]: Se ha identificado un patrón recurrente de divergencia en los términos de energía.",
+    "fecha_validacion": "2026-03-07T04:31:49.497231",
+    "historial": [
+        {
+            "vuelta": 1,
+            "val_res": {
+                "success": true,
+                "conclusion": "Hipótesis validada: Estructura lógica coherente con leyes conocidas.",
+                "valid_content": "Teorema de la conservación asintótica: La energía de vacío no puede crearse ni destruirse, solo transformarse en partículas bosónicas de espín par mediante la ecuación de Schwinger."
+            },
+            "fal_res": {
+                "falsified": false,
+                "findings": [],
+                "falsified_content": "Teorema de la conservación asintótica: La energía de vacío no puede crearse ni destruirse, solo transformarse en partículas bosónicas de espín par mediante la ecuación de Schwinger."
+            }
+        },
+        {
+            "vuelta": 2,
+            "val_res": {
+                "success": true,
+                "conclusion": "Hipótesis validada: Estructura lógica coherente con leyes conocidas.",
+                "valid_content": "Teorema de la conservación asintótica: La energía de vacío no puede crearse ni destruirse, solo transformarse en partículas bosónicas de espín par mediante la ecuación de Schwinger.\n[DEEP_INSIGHT]: Se ha identificado un patrón recurrente de divergencia en los términos de energía."
+            },
+            "fal_res": {
+                "falsified": false,
+                "findings": [],
+                "falsified_content": "Teorema de la conservación asintótica: La energía de vacío no puede crearse ni destruirse, solo transformarse en partículas bosónicas de espín par mediante la ecuación de Schwinger.\n[DEEP_INSIGHT]: Se ha identificado un patrón recurrente de divergencia en los términos de energía."
+            }
+        }
+    ],
+    "paper_id": "PPR_LAW_20260307043149_doc_05_teorema_energia"
+}

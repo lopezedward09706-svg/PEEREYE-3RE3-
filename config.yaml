@@ -1,0 +1,23 @@
+mode: freedom
+max_iterations_per_hypothesis: 3
+knowledge_base_path: ./data/input
+logs_path: ./data/logs
+papers_path: ./data/papers
+laws_repo_path: ./data/laws_repo
+sim_output_path: ./data/sim_output
+uploads_path: ./data/uploads
+classifier_rules:
+  min_length: 25
+  high_quality_keywords:
+    - teorema
+    - ecuación
+    - demostración
+    - hipótesis
+    - ley
+    - cuántico
+    - masa
+    - energía
+decision_rules:
+  min_aciertos_para_publicar: 3
+  max_errores_leves_para_publicar: 2
+  permitir_rehacer_con_graves_en_libertad: true

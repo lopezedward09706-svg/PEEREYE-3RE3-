@@ -1,0 +1,30 @@
+{
+    "id": "doc_01_valido.txt",
+    "content": "La masa y la energía son manifestaciones del mismo campo escalar covariante, E=mc^2.",
+    "history": [
+        {
+            "cycle": "Primera Vuelta",
+            "val": {
+                "success": true,
+                "conclusion": "Validación Teórica: Consistencia massa-energía comprobada (Ecuación Base)."
+            },
+            "fal": {
+                "falsified": false,
+                "conclusion": "Refutación: Resistió la falsación inicial (No se encontraron contraejemplos triviales)."
+            },
+            "insight": "El análisis espectral del enunciado sugiere asimetrías subyacentes críticas."
+        },
+        {
+            "cycle": "Segunda Vuelta",
+            "val": {
+                "success": true,
+                "conclusion": "Validación Teórica: Consistencia massa-energía comprobada (Ecuación Base)."
+            },
+            "fal": {
+                "falsified": false,
+                "conclusion": "Refutación: Resistió la falsación inicial (No se encontraron contraejemplos triviales)."
+            },
+            "insight": "El análisis espectral del enunciado sugiere asimetrías subyacentes críticas."
+        }
+    ]
+}

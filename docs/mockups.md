@@ -1,0 +1,1 @@
+Mockup Estructural: Página Principal (Dashboard). Visualización de paneles de control y bitácora de agentes.
